@@ -1,71 +1,48 @@
-# Getting Started with Create React App
+Introduction
+creating zomato application steps 
+       * clean workspace
+       * source  code
+       * code quality analysis
+       *build
+       *scan
+       *tag
+       * push
+       * container
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  Technical Stack
+  Git
+  docker
+  trivy
+  sonarqube
+  container
 
-## Available Scripts
+  1. Creating server EC2 instance
+       commands for installation for git and docker
+       yum install git docker -y && systemctls start docker
 
-In the project directory, you can run:
+  2. sonarqube
+       commands
+       docker run -itd --name sonar -p 9000:9000 sonarqube:lts-community
 
-### `npm start`
+  3. Trivy
+       commands
+        trivy --version
+  4. jenkins
+       commands
+        vim jenkins.sh > cmds > sh jenkins.sh
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+     Images of running project
+     
+       <img width="800" height="397" alt="image" src="https://github.com/user-attachments/assets/61f40784-2969-4202-a07a-b1a51c93a7d5" />
+ <img width="1905" height="740" alt="image" src="https://github.com/user-attachments/assets/f6b0059e-b7bb-4f97-8e90-bb764dddb075" />
+<img width="1906" height="811" alt="image" src="https://github.com/user-attachments/assets/d7b731fb-95e3-483f-a5fd-c1b985e6c1ce" />
+<img width="1904" height="930" alt="image" src="https://github.com/user-attachments/assets/c4bf742a-0cfb-4bce-9a4c-b0fed8bb2602" />
+<img width="1904" height="930" alt="image" src="https://github.com/user-attachments/assets/8e1fb123-3b0b-48ce-aeb2-a87e2a76e674" />
+<img width="1910" height="702" alt="image" src="https://github.com/user-attachments/assets/fc015653-1544-4d0b-9226-8583eb658e65" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="1908" height="877" alt="image" src="https://github.com/user-attachments/assets/8685318b-5d31-43ae-a406-1e8e736370ac" />
 
-### `npm test`
+ 
+         
+       
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Zomato-Clone
